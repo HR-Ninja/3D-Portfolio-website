@@ -111,13 +111,13 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Game Programmer Inter",
+        title: "Game Programmer Intern",
         company_name: "Pixel Mobs Studios",
         iconBg: "#accbe1",
         date: "Jan 2024 - Aug 2024",
         points: [
             "Programming Gameplay mechanics for the player.",
-            "Helping implement AI mechanics.",
+            "Implementing enemy AI mechanics.",
             "Implementing JSON save/load systems."
         ],
     },
