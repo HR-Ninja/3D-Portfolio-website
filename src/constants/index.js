@@ -113,21 +113,24 @@ export const experiences = [
     {
         title: "Game Programmer Inter",
         company_name: "Pixel Mobs Studios",
-        icon: null,
         iconBg: "#accbe1",
         date: "Jan 2024 - Aug 2024",
         points: [
-            "Placeholder text",
+            "Programming Gameplay mechanics for the player.",
+            "Helping implement AI mechanics.",
+            "Implementing JSON save/load systems."
+
         ],
     },
     {
         title: "Managment Accountant",
-        company_name: "Starbucks",
-        icon: null,
+        company_name: "Finance",
         iconBg: "#accbe1",
         date: "Aug 2017 - Dec 2023",
         points: [
-            "Placeholder text",
+            "Month end/Year end reporting.",
+            "Budgeting and forecasting.",
+            "Financial reconciliation and variance analysis."
         ],
     },
 ];

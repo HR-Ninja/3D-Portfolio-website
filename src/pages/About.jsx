@@ -15,15 +15,14 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Haaris
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Software Engineer based in London. I began my career in finance, working as an accountant, where I honed my analytical and problem-solving skills. Over time, I developed a passion for programming and problem solving. This newfound interest led me to leave finance and pursue a degree in computer science. I am now dedicated to building a career in Software Engineering, combining my technical skills with my creative vision to create immersive and engaging user experiences.
         </p>
       </div>
 
@@ -63,13 +62,7 @@ const About = () => {
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
-                  </div>
+                  <div className='flex justify-center items-center w-full h-full'/>
                 }
                 contentStyle={{
                   borderBottom: "8px",
