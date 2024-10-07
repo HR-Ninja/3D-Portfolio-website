@@ -10,8 +10,12 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Haaris</span>
         👋
         <br />
-        A Software Engineer from London, United Kingdom
+        A Software Engineer from London, United Kingdom.
+        <p>
+        Give me a spin!
+        </p>
       </h1>
+      
     );
 
   if (currentStage === 2) {
