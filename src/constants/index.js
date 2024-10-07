@@ -23,7 +23,7 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
 } from "../assets/icons";
 
 export const skills = [
@@ -106,7 +106,7 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
 ];
 
 export const experiences = [
@@ -119,7 +119,6 @@ export const experiences = [
             "Programming Gameplay mechanics for the player.",
             "Helping implement AI mechanics.",
             "Implementing JSON save/load systems."
-
         ],
     },
     {
@@ -150,45 +149,39 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Compiler written in C++',
+        description: 'This is a project i started to learn how Lexers and Parsers work, i plan to improve it so it outputs directly to LLVM IR, for now it just transpiles C++',
+        link: 'https://www.youtube.com/watch?v=8rzazW8gJX8&ab_channel=GamingCrucible',
     },
     {
-        iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'A* Path finding algorithm',
+        description: 'Made with C++ and Raylib, provides a visual representation of how the A* algorithm works.',
+        link: 'https://www.youtube.com/watch?v=OWnbIpWthyo&ab_channel=GamingCrucible',
     },
     {
-        iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Unity FPS Player Controller',
+        description: 'This project was purely made to help me learn how the mechanics of an FPS work together, things such as IK Rigging, procedural Animations, Player movement and complete customizablity through scriptable-objects',
+        link: 'https://www.youtube.com/watch?v=p_iRdDzK_8k&ab_channel=GamingCrucible',
     },
     {
-        iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Tetris Clone in C++',
+        description: 'This is a project recreating Tetris using only C++ and Raylib, this demonstrates my understanding of Game programming fundamentals',
+        link: 'https://www.youtube.com/watch?v=HjWs9cH0lgg&ab_channel=GamingCrucible',
     },
     {
-        iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Fully Customizable Platformer Movement System',
+        description: 'In this project i created a fully customizable player controller for 2D platforming, with dashing, double jumps, wall slide/jumping and coyote time. All configurable through a scriptable object allowing for plenty of customizablity',
+        link: 'https://www.youtube.com/watch?v=72i1ydPAXnY&ab_channel=GamingCrucible',
     },
     {
-        iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Unity JSON Save/Load System',
+        description: 'This was a project i worked on while interning, the task was to implement a solid easy to use Save/Load system with encryption and the ability for multiple saved files',
+        link: 'https://www.youtube.com/watch?v=b3AIOBMZH98&ab_channel=GamingCrucible',
     }
 ];
